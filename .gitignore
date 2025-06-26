@@ -1,0 +1,11 @@
+git ignore
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup 
+
+# Optionally ignore crash logs and terraform plan output crash.log
+*tfplan
+
+# Ignore hidden Terraform directories (if any)
+.terraform/
